@@ -37,6 +37,9 @@ ul{
 .navigation-button:focus{
         color: #404bbf;
 }
+.contact{
+    font-style: normal;
+}
 .contact-button{
         line-height: 1.5;
         color: #434455;
