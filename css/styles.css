@@ -1,6 +1,6 @@
 body{
        
-        font-family: "Roboto","Helvetica Neue","Verdana","Tahoma",sans-serif;
+        font-family: "Roboto",sans-serif;
         color: #434455;
         background-color: #ffffff;
 }
@@ -19,7 +19,7 @@ ul{
         color: #f4f4fd;
 }
 .logo {
-    font-family: "Raleway","Helvetica Neue","Verdana","Tahoma",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -37,14 +37,14 @@ ul{
 .navigation-button:focus{
         color: #404bbf;
 }
-.contact{
+.contact-button{
+        line-height: 1.5;
         color: #434455;
         font-style: normal;
+        letter-spacing: 0.02em;
 }
-.contact-email:hover,
-.contact-email:active,
-.contact-telephone:hover,
-.contact-telephone:active{
+.contact-button:hover,
+.contact-button:focus{
         color: #404bbf;
 }
 .hero{
@@ -59,7 +59,7 @@ ul{
         text-align: center;
 }
 .hero-button{
-        font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+        font-family: "Roboto",sans-serif;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
@@ -72,6 +72,7 @@ ul{
     background-color: #404BBF;
 }
 .advantages-title{
+        color: #2e2f42;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -83,9 +84,12 @@ ul{
         color: #434455;
 }
 .our-team{
-    background-color: #f4f4fd;
+        background-color: #f4f4fd;
 }
+
+
 .first-team-title{
+        color: #2E2F42;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -93,8 +97,11 @@ ul{
         text-transform: capitalize;
         text-align: center;
 }
+.team-list{
+    background-color: #ffffff;
+}
 .third-team-title{
-        background-color: #ffffff;
+        color: #2E2F42;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -115,12 +122,14 @@ ul{
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
+        color: #2E2F42;
 }
 .third-portfolio-title{
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color: #2E2F42;
     }
 .third-portfolio-text{
         line-height: 1.5;
